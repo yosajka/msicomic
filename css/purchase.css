@@ -1,0 +1,241 @@
+
+
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+/*----------------------------
+TONG QUAT
+-------------------------------*/
+body {
+  background: #fff;
+  color: #444;
+  font-family: "Open Sans", sans-serif;
+}
+a {
+  color: #1bb1dc;
+  transition: 0.5s;
+}
+
+a:hover
+a:active
+a:focus {
+  color: #0a98c0;
+  outline: none;
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+.clear {
+  clear: both;
+}
+/*---------------------------
+1.Top bar
+-------------------------------*/
+#topbar {
+  padding: 0 0 5px 0;
+  font-size: 14px;
+  transition: all 0.5s;
+  background: #282521;
+}
+/*ben phai man hinh*/
+#topbar .social-links {
+  text-align: right;
+}
+#topbar .social-links a {
+  color: #fff;
+  padding: 10px 12px;
+  display: inline-block;
+  line-height: 1px;
+}
+#topbar .social-links a:hover {
+  color: #1bb1dc;
+}
+#topbar .social-links a:first-child {
+  border-left: 0;
+}
+/*contact*/
+#topbar .contact {
+  text-align: left;
+  margin-top: -27px;
+}
+#topbar .contact a {
+  color: #fff;
+  padding: 10px 5px 0 0;
+  text-decoration: none;
+}
+#topbar .contact i {
+  padding: 0 10px;
+}
+/* ===================================
+2. layout
+==================================== */
+
+.container {
+  max-width: 1260px;
+  padding: 0 10px 0 10px;
+  position: relative;
+  margin-top: 1px;
+}
+
+#wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#wrapper.boxed {
+  width: 1230px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0;
+  background: #fff;
+}
+
+.row, .row-fluid {
+  margin-bottom: 30px;
+}
+
+.row .row, .row-fluid .row-fluid {
+  margin-bottom: 30px;
+}
+
+.row.nomargin, .row-fluid.nomargin {
+  margin-bottom: 0;
+}
+/*-------------------------------
+3.Header
+----------------------------------*/
+/* modal styled */
+.modal.styled .modal-header h4 {
+  color: #fff;
+}
+/* --- header -- */
+#header {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#header .logo {
+  margin: 1px 0 0 5px;
+  float: left;
+}
+
+#header .logo img {
+  margin-top: 1rem;
+  margin-bottom: 10px;
+}
+
+#header .logo h1 {
+  font-size: 14px;
+  padding: 0 50px;
+}
+
+/*
+.................................
+footer
+.................................
+*/
+#footer .copyright {
+  text-align: center;
+  padding-top: 300px;
+  color: #535074;
+  font-size: 15px;
+}
+
+#footer .credits {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 4px;
+  color: #8582a8;
+}
+
+#footer .credits a {
+  color: #1bb1dc;
+}
+
+#footer .credits a:hover {
+  color: #0a98c0;
+}
