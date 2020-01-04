@@ -277,6 +277,18 @@ hr {
   transform: 2s ease;
   opacity: 0.5s ease-out;
 }
+/*table*/
+
+.my-custom-scrollbar {
+  position: relative;
+  height: 350px;
+  overflow: auto;
+  margin-top: -8rem;
+}
+.table-wrapper-scroll-y {
+  display: block;
+}
+
 
 /*sec1*/
 /*
@@ -285,7 +297,7 @@ phan cap nhat
 ................................
 */
 .overview {
-  padding-top: 15rem;
+  padding-top: 0rem;
 }
 #update{
   list-style: none;
@@ -546,18 +558,6 @@ footer
 
 #footer .footer-top .footer-info {
   margin-bottom: 5px;
-}
-
-#footer .footer-top .footer-info h3 {
-  font-size: 34px;
-  margin: 0 0 20px 0;
-  padding: 2px 0 2px 0;
-  line-height: 1;
-  font-family: "Montserrat", sans-serif;
-  color: #413e66;
-  font-weight: 400;
-  letter-spacing: 3px;
-  text-transform: uppercase;
 }
 
 #footer .footer-top .footer-info p {

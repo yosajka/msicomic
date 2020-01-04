@@ -30,8 +30,19 @@
       modal2.style.display = "none";
     }   
   }
-
   
+  function checklogo(){
+    var check = document.log.logohome.value;
+    var exit = false;
+    if(validform(valid == true) == check){
+      exit = true;
+      window.location = "HomeAfter.html"
+      break;
+    }
+    else{
+      window.location = "Home.html"
+    }
+  }
 
 })(jQuery);
 
